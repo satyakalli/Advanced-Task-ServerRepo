@@ -1,0 +1,171 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1632227846312,5,LAUNCH APPLICATION,200,"Number of samples in transaction : 1, number of failing samples : 0",Login_Logout 1-1,,true,,2021,120,1,1,null,0,2,1
+1632227846313,5,Launch,200,OK,Login_Logout 1-1,text,true,,2021,120,1,1,http://192.168.99.100:5000/,5,0,1
+1632227846319,2244,SIGN IN,200,"Number of samples in transaction : 11, number of failing samples : 0",Login_Logout 1-1,,true,,5073,4794,1,1,null,0,6,3
+1632227846319,608,SignIn,200,OK,Login_Logout 1-1,text,true,,492,294,1,1,http://192.168.99.100:60968/authentication/authentication/signin,608,0,1
+1632227846927,4,AccountProfile,200,OK,Login_Logout 1-1,text,true,,2047,135,1,1,http://192.168.99.100:5000/Account/Profile,4,0,0
+1632227846932,455,GetNotification,200,OK,Login_Logout 1-1,text,true,,213,514,1,1,http://192.168.99.100:60190/notification/notification/getNotification?numberOfNotifications=5,455,0,1
+1632227847387,98,GetNewNotificationCount,200,OK,Login_Logout 1-1,text,true,,213,498,1,1,http://192.168.99.100:60190/notification/notification/getNewNotificationCount,98,0,0
+1632227847486,381,GetBalance,200,OK,Login_Logout 1-1,text,true,,191,475,1,1,http://192.168.99.100:51689/listing/listing/getBalance,381,0,1
+1632227847868,47,SignIn-IsUserAuthenticated,200,OK,Login_Logout 1-1,text,true,,213,484,1,1,http://192.168.99.100:60190/profile/profile/isUserAuthenticated,47,0,0
+1632227847916,46,GetLanguage,200,OK,Login_Logout 1-1,text,true,,160,476,1,1,http://192.168.99.100:60190/profile/profile/getLanguage,46,0,0
+1632227847963,48,GetEducation,200,OK,Login_Logout 1-1,text,true,,190,477,1,1,http://192.168.99.100:60190/profile/profile/getEducation,48,0,0
+1632227848011,50,GetSkill,200,OK,Login_Logout 1-1,text,true,,160,473,1,1,http://192.168.99.100:60190/profile/profile/getSkill,50,0,0
+1632227848062,50,GetCertification,200,OK,Login_Logout 1-1,text,true,,160,481,1,1,http://192.168.99.100:60190/profile/profile/getCertification,50,0,0
+1632227848112,457,GetProfileDetails,200,OK,Login_Logout 1-1,text,true,,1034,487,1,1,http://192.168.99.100:60190/profile/profile/getProfileDetails/?id=,457,0,0
+1632227848569,9,LOG OUT,200,"Number of samples in transaction : 2, number of failing samples : 0",Login_Logout 1-1,,true,,2171,375,1,1,null,0,1,0
+1632227848569,3,Home,200,OK,Login_Logout 1-1,text,true,,2021,154,1,1,http://192.168.99.100:5000/Home,3,0,0
+1632227848573,6,LogOut-IsUserAuthenticated,401,Unauthorized,Login_Logout 1-1,,true,,150,221,1,1,http://192.168.99.100:60190/profile/profile/isUserAuthenticated,6,0,0
+1632227848581,3,LAUNCH APPLICATION,200,"Number of samples in transaction : 1, number of failing samples : 0",Login_Logout 1-1,,true,,2021,120,1,1,null,0,0,0
+1632227848581,3,Launch,200,OK,Login_Logout 1-1,text,true,,2021,120,1,1,http://192.168.99.100:5000/,3,0,0
+1632227848584,1199,SIGN IN,200,"Number of samples in transaction : 11, number of failing samples : 0",Login_Logout 1-1,,true,,5073,4794,1,1,null,0,5,0
+1632227848585,257,SignIn,200,OK,Login_Logout 1-1,text,true,,492,294,1,1,http://192.168.99.100:60968/authentication/authentication/signin,257,0,0
+1632227848842,3,AccountProfile,200,OK,Login_Logout 1-1,text,true,,2047,135,1,1,http://192.168.99.100:5000/Account/Profile,3,0,0
+1632227848846,95,GetNotification,200,OK,Login_Logout 1-1,text,true,,213,514,1,1,http://192.168.99.100:60190/notification/notification/getNotification?numberOfNotifications=5,95,0,0
+1632227848942,94,GetNewNotificationCount,200,OK,Login_Logout 1-1,text,true,,213,498,1,1,http://192.168.99.100:60190/notification/notification/getNewNotificationCount,94,0,0
+1632227849036,49,GetBalance,200,OK,Login_Logout 1-1,text,true,,191,475,1,1,http://192.168.99.100:51689/listing/listing/getBalance,49,0,0
+1632227849085,46,SignIn-IsUserAuthenticated,200,OK,Login_Logout 1-1,text,true,,213,484,1,1,http://192.168.99.100:60190/profile/profile/isUserAuthenticated,46,0,0
+1632227849131,50,GetLanguage,200,OK,Login_Logout 1-1,text,true,,160,476,1,1,http://192.168.99.100:60190/profile/profile/getLanguage,50,0,0
+1632227849182,46,GetEducation,200,OK,Login_Logout 1-1,text,true,,190,477,1,1,http://192.168.99.100:60190/profile/profile/getEducation,46,0,0
+1632227849229,51,GetSkill,200,OK,Login_Logout 1-1,text,true,,160,473,1,1,http://192.168.99.100:60190/profile/profile/getSkill,51,0,0
+1632227849280,48,GetCertification,200,OK,Login_Logout 1-1,text,true,,160,481,1,1,http://192.168.99.100:60190/profile/profile/getCertification,48,0,0
+1632227849328,460,GetProfileDetails,200,OK,Login_Logout 1-1,text,true,,1034,487,1,1,http://192.168.99.100:60190/profile/profile/getProfileDetails/?id=,460,0,0
+1632227849788,6,LOG OUT,200,"Number of samples in transaction : 2, number of failing samples : 0",Login_Logout 1-1,,true,,2171,375,1,1,null,0,1,0
+1632227849789,3,Home,200,OK,Login_Logout 1-1,text,true,,2021,154,1,1,http://192.168.99.100:5000/Home,3,0,0
+1632227849792,3,LogOut-IsUserAuthenticated,401,Unauthorized,Login_Logout 1-1,,true,,150,221,1,1,http://192.168.99.100:60190/profile/profile/isUserAuthenticated,3,0,0
+1632227849796,3,LAUNCH APPLICATION,200,"Number of samples in transaction : 1, number of failing samples : 0",Login_Logout 1-1,,true,,2021,120,1,1,null,0,1,0
+1632227849796,3,Launch,200,OK,Login_Logout 1-1,text,true,,2021,120,1,1,http://192.168.99.100:5000/,3,0,0
+1632227849800,1203,SIGN IN,200,"Number of samples in transaction : 11, number of failing samples : 0",Login_Logout 1-1,,true,,5073,4794,1,1,null,0,6,0
+1632227849800,276,SignIn,200,OK,Login_Logout 1-1,text,true,,492,294,1,1,http://192.168.99.100:60968/authentication/authentication/signin,276,0,0
+1632227850076,3,AccountProfile,200,OK,Login_Logout 1-1,text,true,,2047,135,1,1,http://192.168.99.100:5000/Account/Profile,3,0,0
+1632227850080,97,GetNotification,200,OK,Login_Logout 1-1,text,true,,213,514,1,1,http://192.168.99.100:60190/notification/notification/getNotification?numberOfNotifications=5,97,0,0
+1632227850178,92,GetNewNotificationCount,200,OK,Login_Logout 1-1,text,true,,213,498,1,1,http://192.168.99.100:60190/notification/notification/getNewNotificationCount,92,0,0
+1632227850271,46,GetBalance,200,OK,Login_Logout 1-1,text,true,,191,475,1,1,http://192.168.99.100:51689/listing/listing/getBalance,46,0,0
+1632227850318,45,SignIn-IsUserAuthenticated,200,OK,Login_Logout 1-1,text,true,,213,484,1,1,http://192.168.99.100:60190/profile/profile/isUserAuthenticated,45,0,0
+1632227850363,48,GetLanguage,200,OK,Login_Logout 1-1,text,true,,160,476,1,1,http://192.168.99.100:60190/profile/profile/getLanguage,48,0,0
+1632227850411,48,GetEducation,200,OK,Login_Logout 1-1,text,true,,190,477,1,1,http://192.168.99.100:60190/profile/profile/getEducation,48,0,0
+1632227850460,50,GetSkill,200,OK,Login_Logout 1-1,text,true,,160,473,1,1,http://192.168.99.100:60190/profile/profile/getSkill,50,0,0
+1632227850510,47,GetCertification,200,OK,Login_Logout 1-1,text,true,,160,481,1,1,http://192.168.99.100:60190/profile/profile/getCertification,47,0,0
+1632227850558,451,GetProfileDetails,200,OK,Login_Logout 1-1,text,true,,1034,487,1,1,http://192.168.99.100:60190/profile/profile/getProfileDetails/?id=,451,0,0
+1632227851009,7,LOG OUT,200,"Number of samples in transaction : 2, number of failing samples : 0",Login_Logout 1-1,,true,,2171,375,1,1,null,0,0,0
+1632227851009,4,Home,200,OK,Login_Logout 1-1,text,true,,2021,154,1,1,http://192.168.99.100:5000/Home,4,0,0
+1632227851013,3,LogOut-IsUserAuthenticated,401,Unauthorized,Login_Logout 1-1,,true,,150,221,1,1,http://192.168.99.100:60190/profile/profile/isUserAuthenticated,3,0,0
+1632227851017,3,LAUNCH APPLICATION,200,"Number of samples in transaction : 1, number of failing samples : 0",Login_Logout 1-1,,true,,2021,120,1,1,null,0,1,0
+1632227851017,3,Launch,200,OK,Login_Logout 1-1,text,true,,2021,120,1,1,http://192.168.99.100:5000/,3,0,0
+1632227851021,1232,SIGN IN,200,"Number of samples in transaction : 11, number of failing samples : 0",Login_Logout 1-1,,true,,5073,4794,1,1,null,0,4,0
+1632227851021,249,SignIn,200,OK,Login_Logout 1-1,text,true,,492,294,1,1,http://192.168.99.100:60968/authentication/authentication/signin,249,0,0
+1632227851270,5,AccountProfile,200,OK,Login_Logout 1-1,text,true,,2047,135,1,1,http://192.168.99.100:5000/Account/Profile,5,0,0
+1632227851275,106,GetNotification,200,OK,Login_Logout 1-1,text,true,,213,514,1,1,http://192.168.99.100:60190/notification/notification/getNotification?numberOfNotifications=5,105,0,0
+1632227851381,108,GetNewNotificationCount,200,OK,Login_Logout 1-1,text,true,,213,498,1,1,http://192.168.99.100:60190/notification/notification/getNewNotificationCount,108,0,0
+1632227851489,52,GetBalance,200,OK,Login_Logout 1-1,text,true,,191,475,1,1,http://192.168.99.100:51689/listing/listing/getBalance,52,0,0
+1632227851542,50,SignIn-IsUserAuthenticated,200,OK,Login_Logout 1-1,text,true,,213,484,1,1,http://192.168.99.100:60190/profile/profile/isUserAuthenticated,50,0,0
+1632227851593,49,GetLanguage,200,OK,Login_Logout 1-1,text,true,,160,476,1,1,http://192.168.99.100:60190/profile/profile/getLanguage,49,0,0
+1632227851642,52,GetEducation,200,OK,Login_Logout 1-1,text,true,,190,477,1,1,http://192.168.99.100:60190/profile/profile/getEducation,51,0,0
+1632227851694,58,GetSkill,200,OK,Login_Logout 1-1,text,true,,160,473,1,1,http://192.168.99.100:60190/profile/profile/getSkill,58,0,0
+1632227851753,48,GetCertification,200,OK,Login_Logout 1-1,text,true,,160,481,1,1,http://192.168.99.100:60190/profile/profile/getCertification,48,0,0
+1632227851802,455,GetProfileDetails,200,OK,Login_Logout 1-1,text,true,,1034,487,1,1,http://192.168.99.100:60190/profile/profile/getProfileDetails/?id=,455,0,0
+1632227852258,6,LOG OUT,200,"Number of samples in transaction : 2, number of failing samples : 0",Login_Logout 1-1,,true,,2171,375,1,1,null,0,0,0
+1632227852258,3,Home,200,OK,Login_Logout 1-1,text,true,,2021,154,1,1,http://192.168.99.100:5000/Home,3,0,0
+1632227852261,3,LogOut-IsUserAuthenticated,401,Unauthorized,Login_Logout 1-1,,true,,150,221,1,1,http://192.168.99.100:60190/profile/profile/isUserAuthenticated,3,0,0
+1632227852265,3,LAUNCH APPLICATION,200,"Number of samples in transaction : 1, number of failing samples : 0",Login_Logout 1-1,,true,,2021,120,1,1,null,0,0,0
+1632227852265,3,Launch,200,OK,Login_Logout 1-1,text,true,,2021,120,1,1,http://192.168.99.100:5000/,3,0,0
+1632227852268,1188,SIGN IN,200,"Number of samples in transaction : 11, number of failing samples : 0",Login_Logout 1-1,,true,,5073,4794,1,1,null,0,3,0
+1632227852268,240,SignIn,200,OK,Login_Logout 1-1,text,true,,492,294,1,1,http://192.168.99.100:60968/authentication/authentication/signin,240,0,0
+1632227852508,3,AccountProfile,200,OK,Login_Logout 1-1,text,true,,2047,135,1,1,http://192.168.99.100:5000/Account/Profile,3,0,0
+1632227852512,100,GetNotification,200,OK,Login_Logout 1-1,text,true,,213,514,1,1,http://192.168.99.100:60190/notification/notification/getNotification?numberOfNotifications=5,99,0,0
+1632227852612,95,GetNewNotificationCount,200,OK,Login_Logout 1-1,text,true,,213,498,1,1,http://192.168.99.100:60190/notification/notification/getNewNotificationCount,95,0,0
+1632227852707,54,GetBalance,200,OK,Login_Logout 1-1,text,true,,191,475,1,1,http://192.168.99.100:51689/listing/listing/getBalance,54,0,0
+1632227852762,45,SignIn-IsUserAuthenticated,200,OK,Login_Logout 1-1,text,true,,213,484,1,1,http://192.168.99.100:60190/profile/profile/isUserAuthenticated,45,0,0
+1632227852808,46,GetLanguage,200,OK,Login_Logout 1-1,text,true,,160,476,1,1,http://192.168.99.100:60190/profile/profile/getLanguage,46,0,0
+1632227852854,46,GetEducation,200,OK,Login_Logout 1-1,text,true,,190,477,1,1,http://192.168.99.100:60190/profile/profile/getEducation,46,0,0
+1632227852900,48,GetSkill,200,OK,Login_Logout 1-1,text,true,,160,473,1,1,http://192.168.99.100:60190/profile/profile/getSkill,48,0,0
+1632227852948,48,GetCertification,200,OK,Login_Logout 1-1,text,true,,160,481,1,1,http://192.168.99.100:60190/profile/profile/getCertification,48,0,0
+1632227852996,463,GetProfileDetails,200,OK,Login_Logout 1-1,text,true,,1034,487,1,1,http://192.168.99.100:60190/profile/profile/getProfileDetails/?id=,463,0,0
+1632227853460,13,LOG OUT,200,"Number of samples in transaction : 2, number of failing samples : 0",Login_Logout 1-1,,true,,2171,375,1,1,null,0,0,0
+1632227853460,8,Home,200,OK,Login_Logout 1-1,text,true,,2021,154,1,1,http://192.168.99.100:5000/Home,7,0,0
+1632227853468,5,LogOut-IsUserAuthenticated,401,Unauthorized,Login_Logout 1-1,,true,,150,221,1,1,http://192.168.99.100:60190/profile/profile/isUserAuthenticated,5,0,0
+1632227853475,4,LAUNCH APPLICATION,200,"Number of samples in transaction : 1, number of failing samples : 0",Login_Logout 1-1,,true,,2021,120,1,1,null,0,0,0
+1632227853475,4,Launch,200,OK,Login_Logout 1-1,text,true,,2021,120,1,1,http://192.168.99.100:5000/,4,0,0
+1632227853479,1193,SIGN IN,200,"Number of samples in transaction : 11, number of failing samples : 0",Login_Logout 1-1,,true,,5073,4794,1,1,null,0,3,0
+1632227853480,249,SignIn,200,OK,Login_Logout 1-1,text,true,,492,294,1,1,http://192.168.99.100:60968/authentication/authentication/signin,249,0,0
+1632227853730,3,AccountProfile,200,OK,Login_Logout 1-1,text,true,,2047,135,1,1,http://192.168.99.100:5000/Account/Profile,3,0,0
+1632227853733,95,GetNotification,200,OK,Login_Logout 1-1,text,true,,213,514,1,1,http://192.168.99.100:60190/notification/notification/getNotification?numberOfNotifications=5,94,0,0
+1632227853828,98,GetNewNotificationCount,200,OK,Login_Logout 1-1,text,true,,213,498,1,1,http://192.168.99.100:60190/notification/notification/getNewNotificationCount,98,0,0
+1632227853926,45,GetBalance,200,OK,Login_Logout 1-1,text,true,,191,475,1,1,http://192.168.99.100:51689/listing/listing/getBalance,45,0,0
+1632227853972,44,SignIn-IsUserAuthenticated,200,OK,Login_Logout 1-1,text,true,,213,484,1,1,http://192.168.99.100:60190/profile/profile/isUserAuthenticated,44,0,0
+1632227854016,47,GetLanguage,200,OK,Login_Logout 1-1,text,true,,160,476,1,1,http://192.168.99.100:60190/profile/profile/getLanguage,47,0,0
+1632227854063,46,GetEducation,200,OK,Login_Logout 1-1,text,true,,190,477,1,1,http://192.168.99.100:60190/profile/profile/getEducation,46,0,0
+1632227854109,47,GetSkill,200,OK,Login_Logout 1-1,text,true,,160,473,1,1,http://192.168.99.100:60190/profile/profile/getSkill,47,0,0
+1632227854156,48,GetCertification,200,OK,Login_Logout 1-1,text,true,,160,481,1,1,http://192.168.99.100:60190/profile/profile/getCertification,48,0,0
+1632227854204,471,GetProfileDetails,200,OK,Login_Logout 1-1,text,true,,1034,487,1,1,http://192.168.99.100:60190/profile/profile/getProfileDetails/?id=,471,0,0
+1632227854675,4,LOG OUT,200,"Number of samples in transaction : 2, number of failing samples : 0",Login_Logout 1-1,,true,,2171,375,1,1,null,0,2,0
+1632227854676,2,Home,200,OK,Login_Logout 1-1,text,true,,2021,154,1,1,http://192.168.99.100:5000/Home,2,0,0
+1632227854679,2,LogOut-IsUserAuthenticated,401,Unauthorized,Login_Logout 1-1,,true,,150,221,1,1,http://192.168.99.100:60190/profile/profile/isUserAuthenticated,2,0,0
+1632227854682,3,LAUNCH APPLICATION,200,"Number of samples in transaction : 1, number of failing samples : 0",Login_Logout 1-1,,true,,2021,120,1,1,null,0,1,0
+1632227854683,3,Launch,200,OK,Login_Logout 1-1,text,true,,2021,120,1,1,http://192.168.99.100:5000/,3,0,0
+1632227854686,1181,SIGN IN,200,"Number of samples in transaction : 11, number of failing samples : 0",Login_Logout 1-1,,true,,5073,4794,1,1,null,0,6,0
+1632227854686,232,SignIn,200,OK,Login_Logout 1-1,text,true,,492,294,1,1,http://192.168.99.100:60968/authentication/authentication/signin,232,0,0
+1632227854918,3,AccountProfile,200,OK,Login_Logout 1-1,text,true,,2047,135,1,1,http://192.168.99.100:5000/Account/Profile,3,0,0
+1632227854921,94,GetNotification,200,OK,Login_Logout 1-1,text,true,,213,514,1,1,http://192.168.99.100:60190/notification/notification/getNotification?numberOfNotifications=5,94,0,0
+1632227855016,93,GetNewNotificationCount,200,OK,Login_Logout 1-1,text,true,,213,498,1,1,http://192.168.99.100:60190/notification/notification/getNewNotificationCount,93,0,0
+1632227855110,48,GetBalance,200,OK,Login_Logout 1-1,text,true,,191,475,1,1,http://192.168.99.100:51689/listing/listing/getBalance,48,0,0
+1632227855158,47,SignIn-IsUserAuthenticated,200,OK,Login_Logout 1-1,text,true,,213,484,1,1,http://192.168.99.100:60190/profile/profile/isUserAuthenticated,47,0,0
+1632227855205,47,GetLanguage,200,OK,Login_Logout 1-1,text,true,,160,476,1,1,http://192.168.99.100:60190/profile/profile/getLanguage,47,0,0
+1632227855252,47,GetEducation,200,OK,Login_Logout 1-1,text,true,,190,477,1,1,http://192.168.99.100:60190/profile/profile/getEducation,47,0,0
+1632227855300,46,GetSkill,200,OK,Login_Logout 1-1,text,true,,160,473,1,1,http://192.168.99.100:60190/profile/profile/getSkill,46,0,0
+1632227855347,46,GetCertification,200,OK,Login_Logout 1-1,text,true,,160,481,1,1,http://192.168.99.100:60190/profile/profile/getCertification,46,0,0
+1632227855394,478,GetProfileDetails,200,OK,Login_Logout 1-1,text,true,,1034,487,1,1,http://192.168.99.100:60190/profile/profile/getProfileDetails/?id=,478,0,0
+1632227855874,6,LOG OUT,200,"Number of samples in transaction : 2, number of failing samples : 0",Login_Logout 1-1,,true,,2171,375,1,1,null,0,1,0
+1632227855874,4,Home,200,OK,Login_Logout 1-1,text,true,,2021,154,1,1,http://192.168.99.100:5000/Home,4,0,0
+1632227855879,2,LogOut-IsUserAuthenticated,401,Unauthorized,Login_Logout 1-1,,true,,150,221,1,1,http://192.168.99.100:60190/profile/profile/isUserAuthenticated,2,0,0
+1632227855882,3,LAUNCH APPLICATION,200,"Number of samples in transaction : 1, number of failing samples : 0",Login_Logout 1-1,,true,,2021,120,1,1,null,0,0,0
+1632227855882,3,Launch,200,OK,Login_Logout 1-1,text,true,,2021,120,1,1,http://192.168.99.100:5000/,3,0,0
+1632227855885,1172,SIGN IN,200,"Number of samples in transaction : 11, number of failing samples : 0",Login_Logout 1-1,,true,,5073,4794,1,1,null,0,8,0
+1632227855885,230,SignIn,200,OK,Login_Logout 1-1,text,true,,492,294,1,1,http://192.168.99.100:60968/authentication/authentication/signin,230,0,0
+1632227856116,2,AccountProfile,200,OK,Login_Logout 1-1,text,true,,2047,135,1,1,http://192.168.99.100:5000/Account/Profile,2,0,0
+1632227856119,95,GetNotification,200,OK,Login_Logout 1-1,text,true,,213,514,1,1,http://192.168.99.100:60190/notification/notification/getNotification?numberOfNotifications=5,95,0,0
+1632227856215,100,GetNewNotificationCount,200,OK,Login_Logout 1-1,text,true,,213,498,1,1,http://192.168.99.100:60190/notification/notification/getNewNotificationCount,100,0,0
+1632227856316,52,GetBalance,200,OK,Login_Logout 1-1,text,true,,191,475,1,1,http://192.168.99.100:51689/listing/listing/getBalance,52,0,0
+1632227856368,45,SignIn-IsUserAuthenticated,200,OK,Login_Logout 1-1,text,true,,213,484,1,1,http://192.168.99.100:60190/profile/profile/isUserAuthenticated,45,0,0
+1632227856414,47,GetLanguage,200,OK,Login_Logout 1-1,text,true,,160,476,1,1,http://192.168.99.100:60190/profile/profile/getLanguage,47,0,0
+1632227856461,47,GetEducation,200,OK,Login_Logout 1-1,text,true,,190,477,1,1,http://192.168.99.100:60190/profile/profile/getEducation,47,0,0
+1632227856509,46,GetSkill,200,OK,Login_Logout 1-1,text,true,,160,473,1,1,http://192.168.99.100:60190/profile/profile/getSkill,46,0,0
+1632227856556,53,GetCertification,200,OK,Login_Logout 1-1,text,true,,160,481,1,1,http://192.168.99.100:60190/profile/profile/getCertification,47,0,0
+1632227856609,455,GetProfileDetails,200,OK,Login_Logout 1-1,text,true,,1034,487,1,1,http://192.168.99.100:60190/profile/profile/getProfileDetails/?id=,455,0,0
+1632227857065,10,LOG OUT,200,"Number of samples in transaction : 2, number of failing samples : 0",Login_Logout 1-1,,true,,2171,375,1,1,null,0,2,0
+1632227857066,5,Home,200,OK,Login_Logout 1-1,text,true,,2021,154,1,1,http://192.168.99.100:5000/Home,5,0,0
+1632227857072,5,LogOut-IsUserAuthenticated,401,Unauthorized,Login_Logout 1-1,,true,,150,221,1,1,http://192.168.99.100:60190/profile/profile/isUserAuthenticated,5,0,0
+1632227857078,4,LAUNCH APPLICATION,200,"Number of samples in transaction : 1, number of failing samples : 0",Login_Logout 1-1,,true,,2021,120,1,1,null,0,1,0
+1632227857079,4,Launch,200,OK,Login_Logout 1-1,text,true,,2021,120,1,1,http://192.168.99.100:5000/,4,0,0
+1632227857084,1193,SIGN IN,200,"Number of samples in transaction : 11, number of failing samples : 0",Login_Logout 1-1,,true,,5073,4794,1,1,null,0,2,0
+1632227857084,238,SignIn,200,OK,Login_Logout 1-1,text,true,,492,294,1,1,http://192.168.99.100:60968/authentication/authentication/signin,238,0,0
+1632227857323,8,AccountProfile,200,OK,Login_Logout 1-1,text,true,,2047,135,1,1,http://192.168.99.100:5000/Account/Profile,7,0,0
+1632227857331,97,GetNotification,200,OK,Login_Logout 1-1,text,true,,213,514,1,1,http://192.168.99.100:60190/notification/notification/getNotification?numberOfNotifications=5,97,0,0
+1632227857428,94,GetNewNotificationCount,200,OK,Login_Logout 1-1,text,true,,213,498,1,1,http://192.168.99.100:60190/notification/notification/getNewNotificationCount,93,0,0
+1632227857522,45,GetBalance,200,OK,Login_Logout 1-1,text,true,,191,475,1,1,http://192.168.99.100:51689/listing/listing/getBalance,45,0,0
+1632227857567,46,SignIn-IsUserAuthenticated,200,OK,Login_Logout 1-1,text,true,,213,484,1,1,http://192.168.99.100:60190/profile/profile/isUserAuthenticated,45,0,0
+1632227857613,47,GetLanguage,200,OK,Login_Logout 1-1,text,true,,160,476,1,1,http://192.168.99.100:60190/profile/profile/getLanguage,47,0,0
+1632227857660,48,GetEducation,200,OK,Login_Logout 1-1,text,true,,190,477,1,1,http://192.168.99.100:60190/profile/profile/getEducation,48,0,0
+1632227857708,47,GetSkill,200,OK,Login_Logout 1-1,text,true,,160,473,1,1,http://192.168.99.100:60190/profile/profile/getSkill,46,0,0
+1632227857755,47,GetCertification,200,OK,Login_Logout 1-1,text,true,,160,481,1,1,http://192.168.99.100:60190/profile/profile/getCertification,46,0,0
+1632227857802,476,GetProfileDetails,200,OK,Login_Logout 1-1,text,true,,1034,487,1,1,http://192.168.99.100:60190/profile/profile/getProfileDetails/?id=,476,0,0
+1632227858279,8,LOG OUT,200,"Number of samples in transaction : 2, number of failing samples : 0",Login_Logout 1-1,,true,,2171,375,1,1,null,0,0,0
+1632227858279,5,Home,200,OK,Login_Logout 1-1,text,true,,2021,154,1,1,http://192.168.99.100:5000/Home,4,0,0
+1632227858284,3,LogOut-IsUserAuthenticated,401,Unauthorized,Login_Logout 1-1,,true,,150,221,1,1,http://192.168.99.100:60190/profile/profile/isUserAuthenticated,3,0,0
+1632227858288,4,LAUNCH APPLICATION,200,"Number of samples in transaction : 1, number of failing samples : 0",Login_Logout 1-1,,true,,2021,120,1,1,null,0,0,0
+1632227858288,4,Launch,200,OK,Login_Logout 1-1,text,true,,2021,120,1,1,http://192.168.99.100:5000/,4,0,0
+1632227858292,1217,SIGN IN,200,"Number of samples in transaction : 11, number of failing samples : 0",Login_Logout 1-1,,true,,5073,4794,1,1,null,0,4,0
+1632227858292,236,SignIn,200,OK,Login_Logout 1-1,text,true,,492,294,1,1,http://192.168.99.100:60968/authentication/authentication/signin,236,0,0
+1632227858529,7,AccountProfile,200,OK,Login_Logout 1-1,text,true,,2047,135,1,1,http://192.168.99.100:5000/Account/Profile,7,0,0
+1632227858537,100,GetNotification,200,OK,Login_Logout 1-1,text,true,,213,514,1,1,http://192.168.99.100:60190/notification/notification/getNotification?numberOfNotifications=5,99,0,0
+1632227858637,112,GetNewNotificationCount,200,OK,Login_Logout 1-1,text,true,,213,498,1,1,http://192.168.99.100:60190/notification/notification/getNewNotificationCount,112,0,0
+1632227858750,49,GetBalance,200,OK,Login_Logout 1-1,text,true,,191,475,1,1,http://192.168.99.100:51689/listing/listing/getBalance,49,0,0
+1632227858799,46,SignIn-IsUserAuthenticated,200,OK,Login_Logout 1-1,text,true,,213,484,1,1,http://192.168.99.100:60190/profile/profile/isUserAuthenticated,46,0,0
+1632227858845,48,GetLanguage,200,OK,Login_Logout 1-1,text,true,,160,476,1,1,http://192.168.99.100:60190/profile/profile/getLanguage,48,0,0
+1632227858893,48,GetEducation,200,OK,Login_Logout 1-1,text,true,,190,477,1,1,http://192.168.99.100:60190/profile/profile/getEducation,48,0,0
+1632227858941,50,GetSkill,200,OK,Login_Logout 1-1,text,true,,160,473,1,1,http://192.168.99.100:60190/profile/profile/getSkill,50,0,0
+1632227858992,51,GetCertification,200,OK,Login_Logout 1-1,text,true,,160,481,1,1,http://192.168.99.100:60190/profile/profile/getCertification,51,0,0
+1632227859043,470,GetProfileDetails,200,OK,Login_Logout 1-1,text,true,,1034,487,1,1,http://192.168.99.100:60190/profile/profile/getProfileDetails/?id=,470,0,0
+1632227859514,7,LOG OUT,200,"Number of samples in transaction : 2, number of failing samples : 0",Login_Logout 1-1,,true,,2171,375,1,1,null,0,1,0
+1632227859514,4,Home,200,OK,Login_Logout 1-1,text,true,,2021,154,1,1,http://192.168.99.100:5000/Home,4,0,0
+1632227859518,3,LogOut-IsUserAuthenticated,401,Unauthorized,Login_Logout 1-1,,true,,150,221,1,1,http://192.168.99.100:60190/profile/profile/isUserAuthenticated,3,0,0
